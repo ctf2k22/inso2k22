@@ -1,0 +1,10 @@
+[remote "origin"]
+	url = https://github.com/ctf2k22/inso2k22
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+
+
+[include]
+path = /inscodevault/flag.txt
